@@ -22,7 +22,7 @@ knit        : slidify::knit2slides
 ## Author D.Dakhno
 ## Course Project "Developing Data Products"
 ## Data Science Specialization by Johns Hopkins University
-## Date Tue Aug 16 16:39:41 2016
+## Date Tue Aug 16 22:10:10 2016
 
 ---
 
@@ -101,13 +101,13 @@ for (ch in c("Rock","Scissors")) wonOrLost(ch)
 
 ```r
 paste(wonOrLost("Paper"))
-[1] "Paper of You against  Scissors of mine :(( You, sore looser!"
-[2] "3"                                                           
-[3] "2"                                                           
-[4] "67"                                                          
-[5] "c(100, 100, 67)"                                             
-[6] "0"                                                           
-[7] "Paper, Scissors, Rock, "                                     
+[1] "Paper of You against  Paper of mine ... Tie! Try Your luck one more time..."
+[2] "3"                                                                          
+[3] "1"                                                                          
+[4] "100"                                                                        
+[5] "c(100, 100, 100)"                                                           
+[6] "2"                                                                          
+[7] "Paper, Scissors, Rock, "                                                    
 ```
 
 ## Good luck playing online!
